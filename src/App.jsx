@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import SimpleForm from './Components/SimpleForm'
+// import SimpleForm from './Components/SimpleForm'
+import RefForm from './Components/RefForm/RefForm'
+import StandardForm from './Components/StandardForm/StandardForm'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <h3>Hello i'm sazid</h3>
-      <p>Today i'm learning about form submitting in react!</p>
-      <SimpleForm></SimpleForm>
+      <p>Learning about form submitting in react!</p>
+      {/* <SimpleForm></SimpleForm> */}
+      {/* <StandardForm></StandardForm> */}
+      <RefForm></RefForm>
     </>
   )
 }
